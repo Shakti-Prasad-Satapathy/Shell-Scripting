@@ -1,7 +1,7 @@
 #!/bin/bash -x
 for i in 1 2 3 4 5
 do
-	x=$(( RANDOM % (100 - 10 + 1 ) +100 ))
+	x=$(( RANDOM % (100 - 10) +100 ))
 	arr[i]=$x
 done
 
