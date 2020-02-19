@@ -10,6 +10,7 @@ do
 		if [ $(($x%i)) -eq 0 ]
   		then
 			flag=1
+			break
   		fi
 	done
 	if [ $(($flag == 1)) ]
