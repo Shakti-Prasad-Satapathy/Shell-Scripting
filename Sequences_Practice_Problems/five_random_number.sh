@@ -5,6 +5,6 @@ do
 	x=$(( RANDOM % (100 - 10 + 1 ) +10 ))
 	sum=$(($sum + $x))
 done
-echo sum of 5, 2-digit numbers is $sum
-echo average of those numbers is $(($sum / 5))
+echo sum of 5, 2-digit numbers is:- $sum
+echo average of those numbers is:- $(($sum / 5))
 
